@@ -15,7 +15,7 @@ import "./style.css";
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper";
 
-let thumbsSwiper = ref();
+const thumbsSwiper = ref();
 
 const setThumbsSwiper = (swiper) => {
   thumbsSwiper.value = swiper;
