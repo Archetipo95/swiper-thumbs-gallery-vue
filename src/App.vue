@@ -46,6 +46,7 @@ const modules = ref([FreeMode, Navigation, Thumbs]);
     :slidesPerView="4"
     :freeMode="true"
     :watchSlidesProgress="true"
+    :grabCursor="true"
     :modules="modules"
     class="mySwiper"
   >
