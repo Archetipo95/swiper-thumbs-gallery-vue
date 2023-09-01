@@ -1,27 +1,27 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue'
 // Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from "swiper/vue";
+import { Swiper, SwiperSlide } from 'swiper/vue'
 
 // Import Swiper styles
-import "swiper/css";
+import 'swiper/css'
 
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
+import 'swiper/css/free-mode'
+import 'swiper/css/navigation'
+import 'swiper/css/thumbs'
 
-import "./style.css";
+import './style.css'
 
 // import required modules
-import { FreeMode, Navigation, Thumbs } from "swiper";
+import { FreeMode, Navigation, Thumbs } from 'swiper/modules'
 
-const thumbsSwiper = ref();
+const thumbsSwiper = ref()
 
 const setThumbsSwiper = (swiper) => {
-  thumbsSwiper.value = swiper;
-};
+  thumbsSwiper.value = swiper
+}
 
-const modules = ref([FreeMode, Navigation, Thumbs]);
+const modules = ref([FreeMode, Navigation, Thumbs])
 </script>
 
 <template>
@@ -40,18 +40,15 @@ const modules = ref([FreeMode, Navigation, Thumbs]);
       <img :src="`https://picsum.photos/id/${110 + i}/800/600`" />
     </swiper-slide>
   </swiper>
-  <swiper
-    @swiper="setThumbsSwiper"
-    :spaceBetween="10"
-    :slidesPerView="4"
-    :freeMode="true"
-    :watchSlidesProgress="true"
-    :grabCursor="true"
-    :modules="modules"
-    class="mySwiper"
-  >
-    <swiper-slide v-for="i in 10">
+  <swiper @swiper="setThumbsSwiper" :spaceBetween="10" :slidesPerView="4" :watchSlidesProgress="true" :grabCursor="true" :modules="modules" class="mySwiper">
+    <swiper-slide v-for="i in 10" :key="`https://picsum.photos/id/${110 + i}/200/100`" class="my-slide">
       <img :src="`https://picsum.photos/id/${110 + i}/200/100`" />
     </swiper-slide>
   </swiper>
 </template>
+
+<style scoped>
+.my-slide {
+  user-select: none;
+}
+</style>
