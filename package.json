@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "swiper": "^11.0.7",
+    "swiper": "^11.1.0",
     "typescript": "^5.4.3",
     "vite": "^5.1.5",
     "vue": "^3.4.21",
