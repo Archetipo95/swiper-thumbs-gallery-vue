@@ -10,7 +10,7 @@ devDependencies:
     version: 5.0.4(vite@5.2.8)(vue@3.4.21)
   swiper:
     specifier: ^11.1.0
-    version: 11.1.0
+    version: 11.1.1
   typescript:
     specifier: ^5.4.3
     version: 5.4.3
@@ -684,8 +684,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /swiper@11.1.0:
-    resolution: {integrity: sha512-Pm78CgU7Wvg+w/MgIL/1NwMSLgx0XqFof25EnVyX8iZFCYJv5CppH7LHkBj43qW2k5Cp3Iz7FcdBxrox7XX2AQ==}
+  /swiper@11.1.1:
+    resolution: {integrity: sha512-jGmEA/fNz1lACIcY4/40ggm1Gcyv+EUivmgV/Jd2WFPsEJhbWXnRAwzZR8OPjkBLtDxmzcoYG/iiAMWfRs0YKQ==}
     engines: {node: '>= 4.7.0'}
     dev: true
 
