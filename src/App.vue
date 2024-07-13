@@ -38,7 +38,7 @@ const getImageURL = (id: number, highRes?: boolean) => {
       </swiper-slide>
     </swiper>
   </div>
-  <swiper @swiper="setThumbsSwiper" :spaceBetween="10" :slidesPerView="4" :watchSlidesProgress="true" :grabCursor="true" :modules="modules" class="small-gallery">
+  <swiper @swiper="setThumbsSwiper" :spaceBetween="10" :slidesPerView="4.5" :watchSlidesProgress="true" :grabCursor="true" :modules="modules" class="small-gallery">
     <swiper-slide v-for="i in 10">
       <img :src="getImageURL(i)" />
     </swiper-slide>
