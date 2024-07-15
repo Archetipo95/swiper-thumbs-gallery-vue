@@ -13,7 +13,7 @@ importers:
         version: 5.0.5(vite@5.3.3)(vue@3.4.31(typescript@5.5.3))
       swiper:
         specifier: ^11.1.4
-        version: 11.1.4
+        version: 11.1.5
       typescript:
         specifier: ^5.5.3
         version: 5.5.3
@@ -418,8 +418,8 @@ packages:
     resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
     engines: {node: '>=0.10.0'}
 
-  swiper@11.1.4:
-    resolution: {integrity: sha512-1n7kbYJB2dFEpUHRFszq7gys/ofIBrMNibwTiMvPHwneKND/t9kImnHt6CfGPScMHgI+dWMbGTycCKGMoOO1KA==}
+  swiper@11.1.5:
+    resolution: {integrity: sha512-JJQWFXdxiMGC2j6ZGTYat5Z7NN9JORJBgHp0/joX9uPod+cRj0wr5H5VnWSNIz9JeAamQvYKaG7aFrGHIF9OEg==}
     engines: {node: '>= 4.7.0'}
 
   to-fast-properties@2.0.0:
@@ -827,7 +827,7 @@ snapshots:
 
   source-map-js@1.2.0: {}
 
-  swiper@11.1.4: {}
+  swiper@11.1.5: {}
 
   to-fast-properties@2.0.0: {}
 
